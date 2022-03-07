@@ -5,7 +5,7 @@ pipeline {
     stages {
         stage('checkout') {
             steps {
-                fullPipeline()
+                fullPipeline 'AjayK'
             }
         }
     }
